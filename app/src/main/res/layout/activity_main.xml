@@ -12,13 +12,21 @@
         android:layout_height="wrap_content"
         android:text="@string/textSelect"
         android:textSize="@dimen/textSizeLarge"/>
-    <CheckBox
-        android:id="@+id/checkStart"
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkStart"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/checkStart"-->
+<!--        android:textSize="@dimen/textSizeMedium"-->
+<!--        />-->
+    <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/checkStart"
         android:text="@string/checkStart"
-        android:textSize="@dimen/textSizeMedium"
-        />
+        android:textSize="20dp"/>
+
+
     <LinearLayout
         android:id="@+id/linearSub"
         android:layout_width="match_parent"
@@ -54,19 +62,27 @@
             android:text="@string/radiobunny"
             android:textSize="@dimen/marginMedium" />
         </RadioGroup>
-        <Button
-            android:id="@+id/btnDone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/marginMedium"
-            android:text="@string/btnDone"/>
+
         <ImageView
             android:id="@+id/imgV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/puppy"
             android:scaleType="fitCenter"/>
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginMedium"
+            android:text="@string/btnFinish"/>
+        <Button
+            android:id="@+id/btnInit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginMedium"
+            android:text="@string/btnInit"/>
     </LinearLayout>
+
 
 
 
